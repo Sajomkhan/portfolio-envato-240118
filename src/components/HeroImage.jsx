@@ -14,7 +14,7 @@ import github from "../assets/icons/github.svg";
 // Hero Image Import
 import heroImage from "../assets/heroImage/saiful.jpg";
 
-export const skills = [
+export const skillIcons = [
   {
     position: "top-2 left-10 w-10 ",
     image: react,
@@ -77,7 +77,7 @@ const HeroImage = () => {
 
         {/* --------------- Skill Icons -------------------- */}
 
-        {skills.map((skill, index) => {
+        {skillIcons.map((skill, index) => {
           return (
             <img
               key={index}

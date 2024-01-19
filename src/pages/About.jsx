@@ -30,7 +30,7 @@ const About = () => {
             <p>Email: {about.email}</p>
             <p>{about.address}</p>
           </div>
-          <p className="text-sm text-justify md:text-base my-2">{about.desc}</p>
+          <p className="text-sm text-justify md:text-base my-2 whitespace-pre-wrap">{about.desc}</p>
           {/* <p className="text-sm text-justify md:text-base my-2">{about.desc2}</p> */}
 
           {/* -------------------Button---------------------- */}

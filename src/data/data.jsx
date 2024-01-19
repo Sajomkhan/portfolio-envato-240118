@@ -18,7 +18,6 @@ export const hero = {
 };
 
 
-
 // ------------------About--------------------//
 export const about = {
   name: "Jhon Doe Moure",
@@ -27,7 +26,7 @@ export const about = {
   phone: "+112-22334455",
   email: "jhon@gmail.com",
   positon: "MERN Developer",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada dui nec odio laoreet fringilla. Vivamus eget metus enim. Donec sed dictum lorem. Vestibulum semper sodales nisi, ac mattis lorem imperdiet ac. Maecenas id leo eros. Sed quis tincidunt nisi. Ut ac purus non nulla tempus iaculis non a ante. Nulla nec placerat mi. Maecenas at ultrices nibh, et malesuada est.\n\nVestibulum semper sodales nisi, ac mattis lorem imperdiet ac. Maecenas id leo eros. Sed quis tincidunt nisi. Ut ac purus non nulla tempus iaculis non a ante. Nulla nec placerat mi. Maecenas at ultrices nibh, et malesuada est.",
+  desc: "Experienced Full Stack Web Developer with 3+ years of expertise in crafting scalable web applications. Proficient in a wide range of technologies, I specialize in building dynamic and responsive solutions using the latest tools and frameworks.\n\nTechnical Skills: JavaScript, React.js, Next.js, TypeScript, Node.js, Express.js, Prisma, MongoDB, Redux, Tailwindcss, Bootstrap, HTML, CSS, SASS, GitHub, Figma, Canva, Adobe Photoshop, Adobe Illustrator.\n\nMy proficiency in frontend technologies, including React.js and Next.js, Redux enables me to create engaging user interfaces, while my strong backend skills with Node.js and Express.js ensure seamless integration server-side functionalities.",
 
   cv_url: cv_url,
   image: {
