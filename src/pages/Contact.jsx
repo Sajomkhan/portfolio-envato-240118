@@ -27,10 +27,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_xwm3gp7", // Write here your's key other wise it will not work
-        "template_5pl5x97", // Write here your's key other wise it will not work
+        "service_xwv4gp7", // Write here your's key other wise it will not work
+        "template_5ply797", // Write here your's key other wise it will not work
         form.current,
-        "IyCRsM1LXLLJYIHIy" // Write here your's key other wise it will not work
+        "IyCRsM1LVFLJYIHIy" // Write here your's key other wise it will not work
       )
       .then(
         (result) => {

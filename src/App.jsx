@@ -12,7 +12,6 @@ function App() {
       <div className="flex flex-col">
         <Navbar />
         <div className="container flex flex-col mt-16">
-          {/* <SocialMedia /> */}
           <Hero />
           <About />
           <Skills />
