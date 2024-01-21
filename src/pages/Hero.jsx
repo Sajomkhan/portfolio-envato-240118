@@ -1,6 +1,6 @@
 import { hero } from "../data/data";
 import { Link as ScrollLink } from "react-scroll";
-import wavingHand from "../assets/others/waving-hand.gif";
+import wavingHand from "../assets/others_image/waving-hand.gif";
 import Typewriter from "typewriter-effect";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroImage from "../components/HeroImage";
@@ -37,8 +37,6 @@ const Hero = () => {
               deleteSpeed: 50,
               delay: 50,
               wrapperClassName: "primary_text text-lg md:text-2xl font-medium",
-              // cursorClassName:
-              //   "text-violet-700 dark:text-violet-600 text-lg md:text-2xl",
             }}
           />
         </div>

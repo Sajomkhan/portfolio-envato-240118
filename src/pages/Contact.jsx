@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { BiLoaderAlt } from "react-icons/bi";
 import emailjs from "@emailjs/browser";
-import contact from "../assets/contact/contact.png";
+import contact from "../assets/contact_image/contact.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 
@@ -27,10 +27,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_xwv4gp7", // Write here your's key other wise it will not work
-        "template_5ply797", // Write here your's key other wise it will not work
+        "service_xfa4gp7", // Write here your's key other wise it will not work
+        "template_5pasf97", // Write here your's key other wise it will not work
         form.current,
-        "IyCRsM1LVFLJYIHIy" // Write here your's key other wise it will not work
+        "IyCRsMFAFAFHIy" // Write here your's key other wise it will not work
       )
       .then(
         (result) => {

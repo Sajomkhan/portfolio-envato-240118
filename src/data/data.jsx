@@ -1,24 +1,22 @@
 import portfolioImage from "../assets/projects/my_portfolio.png"
 import socialMedia from "../assets/projects/social_media.png"
-import Hero_Image from "../assets/heroImage/saiful.jpg"
 
 
 export const cv_url = "https://drive.google.com/file/d/1RMLRdAJtKuMcz-GPzk99014e0oqdF1_H/view?usp=drive_link"
 
 
 // ------------------Hero--------------------//
+// Change data as per your requirment
 export const hero = {
   headline: "I'm Saiful Ajom Khan",
   skills_initiative: "I am into",
   skills: ["MERN Development", "Frontend Development", "Full Stack Development"],
   desc: "I specialize in Full Stack Web Development, where my passion lies in crafting responsive and user-friendly web applications. I prioritize meticulous attention to detail, scalability, and performance to ensure that every project I undertake exceeds client expectations.",
-  image: {
-    url: Hero_Image
-  },
 };
 
 
 // ------------------About--------------------//
+// Change data as per your requirment
 export const about = {
   name: "Saiful Ajom Khan",
   education: "B.Sc. Engineer",
@@ -27,11 +25,6 @@ export const about = {
   email: "sajomkhan@gmail.com",
   positon: "MERN Developer",
   desc: "Experienced Full Stack Web Developer with 3+ years of expertise in crafting scalable web applications. Proficient in a wide range of technologies, I specialize in building dynamic and responsive solutions using the latest tools and frameworks.\n\nTechnical Skills: JavaScript, React.js, Next.js, TypeScript, Node.js, Express.js, Prisma, MongoDB, Redux, Tailwindcss, Bootstrap, HTML, CSS, SASS, GitHub, Figma, Canva, Adobe Photoshop, Adobe Illustrator.\n\nMy proficiency in frontend technologies, including React.js and Next.js, Redux enables me to create engaging user interfaces, while my strong backend skills with Node.js and Express.js ensure seamless integration server-side functionalities.",
-
-  cv_url: cv_url,
-  image: {
-    url: Hero_Image
-  },
 };
 
 

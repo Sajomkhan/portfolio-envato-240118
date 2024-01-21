@@ -12,7 +12,7 @@ import html from "../assets/icons/html.svg";
 import css from "../assets/icons/css.svg";
 import github from "../assets/icons/github.svg";
 // Hero Image Import
-import heroImage from "../assets/heroImage/saiful.jpg";
+import heroImage from "../assets/hero_image/hero_image.png";
 
 export const skillIcons = [
   {

@@ -1,7 +1,7 @@
 import { Link as ScrollLink } from "react-scroll";
 import { IoIosArrowForward } from "react-icons/io";
 import { about } from "../data/data";
-import heroImage from "../assets/heroImage/saiful.jpg";
+import heroImage from "../assets/hero_image/hero_image.png";
 
 const About = () => {
   return (
