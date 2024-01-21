@@ -1,5 +1,6 @@
-import portfolioImage from "../assets/projects/my_portfolio.png"
-import socialMedia from "../assets/projects/social_media.png"
+import project_1 from "../assets/project_images/project_1.png"
+import project_2 from "../assets/project_images/project_2.png"
+import project_3 from "../assets/project_images/project_3.png"
 
 
 export const cv_url = "https://drive.google.com/file/d/1RMLRdAJtKuMcz-GPzk99014e0oqdF1_H/view?usp=drive_link"
@@ -39,25 +40,8 @@ export const projects = [
     desc: "The project is fully user-friendly and responsive for both desktop and mobile devices. It includes shopping cart functionality with real-time updates using Redux. The design includes fully functional product filtering by categories, a catalog with detailed descriptions, and images.",
     github: "https://github.com/Sajomkhan/food-shop-app-vite-v1.1-2302020",
     live: "https://food-shop-app.netlify.app/",
-    image: {
-      public_id: "my_portfolio/thylfwp2a0vi0bdvutnt",
-      url: "https://res.cloudinary.com/dcqw2t8r1/image/upload/v1692977177/my_portfolio/thylfwp2a0vi0bdvutnt.jpg",
-    },
+    image: {project_1}
   },
-
-  {
-    projectId: "40",
-    title: "Portfolio Website (Full Stack)",
-    tech: "MERN Technology",
-    key_techs: ["Next.js", "React.js Vite", "Tailwindcss", "Node.jx", "Express.jx", "MongoDB", "Cloudinary", "Multer"],
-    desc: "Next.js is used for the client and React.js with Vite is used for the Admin interface. The project is fully user-friendly and responsive for both desktop and mobile devices. I utilized Cloudinary for image storage and MongoDB for structural data storage. On the server side, I followed the MVC structure.",
-    github: "https://github.com/Sajomkhan/my-portfolio-client-admin-server-v1.5",
-    live: "https://portfolio-saiful-ajom-khan.netlify.app/",
-    image: {
-      public_id: "my_portfolio/thylfwp2a0vi0bdvutnt",
-      url: portfolioImage,
-    },
-  },  
 
   {
     projectId: "50",
@@ -67,10 +51,7 @@ export const projects = [
     desc: "The project is fully user-friendly and responsive for both desktop and mobile devices. It includes shopping cart functionality with real-time updates using Redux. The design includes fully functional product filtering by categories, a catalog with detailed descriptions, and images.",
     github: "https://github.com/Sajomkhan/cloth-store-app-vite-v1.1-deploy-250323",
     live: "https://cloth-store-app.netlify.app/",
-    image: {
-      url: "https://res.cloudinary.com/dcqw2t8r1/image/upload/v1692884134/my_portfolio/c8igrus7sqcuacn8y3sv.jpg",
-      public_id: "my_portfolio/c8igrus7sqcuacn8y3sv",
-    },
+    image: {project_2},
   },
 
   {
@@ -81,10 +62,7 @@ export const projects = [
     desc: "In this project, my sole focus was on enhancing the design for a better look, using plain CSS. It's not responsive, as I aimed to maximize the potential of CSS for the best design outcomes.",
     github: "https://github.com/Sajomkhan/social-media-app-react",
     live: "https://social-media-app1-react.netlify.app/",
-    image: {
-      url: socialMedia,
-      public_id: '',
-    },
+    image: {project_3},
   },
 ];
 

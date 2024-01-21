@@ -1,6 +1,5 @@
 import { hero } from "../data/data";
 import { Link as ScrollLink } from "react-scroll";
-import wavingHand from "../assets/others_image/waving-hand.gif";
 import Typewriter from "typewriter-effect";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroImage from "../components/HeroImage";
@@ -18,7 +17,7 @@ const Hero = () => {
       {/* --------------Text Div------------- */}
       <div className=" lg:max-w-lg flex-1 flex flex-col items-center gap-3 lg:items-start lg:mt-24 px-2">
         <div className="flex justify-center lg:justify-start items-center gap-1">
-          <img src={wavingHand} alt="waving-hand" width={30} height={30} />
+          <img src="waving_hand.gif" alt="waving-hand" width={30} height={30} />
           <p className="text-lg md:text-xl mt-2 md:mt-1.5">Hey</p>
         </div>
         <h1 className="text-3xl md:text-5xl text-center lg:text-start font-bold relative">
@@ -41,7 +40,9 @@ const Hero = () => {
           />
         </div>
 
-        <p className="text-justify lg:text-left md:text-lg mb-6 whitespace-pre-wrap">{hero.desc}</p>
+        <p className="text-justify lg:text-left md:text-lg mb-6 whitespace-pre-wrap">
+          {hero.desc}
+        </p>
 
         {/* --------------Social Media for Destop------------- */}
         <div className="hidden md:block fixed top-40 left-0 ">

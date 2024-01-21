@@ -1,7 +1,6 @@
 import { Link as ScrollLink } from "react-scroll";
 import { IoIosArrowForward } from "react-icons/io";
 import { about } from "../data/data";
-import heroImage from "../assets/hero_image/hero_image.png";
 
 const About = () => {
   return (
@@ -14,7 +13,7 @@ const About = () => {
           <img
             alt="profile"
             className="w-full h-60 md:h-80 rounded-2xl object-cover lg:grayscale hover:grayscale-0 transition-all bg-violet-100"
-            src={heroImage}
+            src="about_image.png"  // add you about_image from puplic folder
           />
         </div>
 

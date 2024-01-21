@@ -1,17 +1,17 @@
 import { Link as ScrollLink } from "react-scroll";
 // Skill Icons
-import react from "../assets/icons/react.svg";
-import nextjs from "../assets/icons/nextjs.svg";
-import javascript from "../assets/icons/javascript.svg";
-import typescript from "../assets/icons/typescript.svg";
-import redux from "../assets/icons/redux.svg";
-import nodejs from "../assets/icons/nodejs.svg";
-import mongodb from "../assets/icons/mongodb.svg";
-import tailwindcss from "../assets/icons/tailwindcss.svg";
-import bootstrap from "../assets/icons/bootstrap.svg";
-import html from "../assets/icons/html.svg";
-import css from "../assets/icons/css.svg";
-import github from "../assets/icons/github.svg";
+import react from "../assets/skill_icons/react.svg";
+import nextjs from "../assets/skill_icons/nextjs.svg";
+import javascript from "../assets/skill_icons/javascript.svg";
+import typescript from "../assets/skill_icons/typescript.svg";
+import redux from "../assets/skill_icons/redux.svg";
+import nodejs from "../assets/skill_icons/nodejs.svg";
+import mongodb from "../assets/skill_icons/mongodb.svg";
+import tailwindcss from "../assets/skill_icons/tailwindcss.svg";
+import bootstrap from "../assets/skill_icons/bootstrap.svg";
+import html from "../assets/skill_icons/html.svg";
+import css from "../assets/skill_icons/css.svg";
+import github from "../assets/skill_icons/github.svg";
 
 // Social Media Icons
 import gitHub from "../assets/socialmedia/github.svg";
