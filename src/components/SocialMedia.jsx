@@ -1,5 +1,29 @@
-import { socialmedias } from "../data/iconData";
 import { Link as ScrollLink } from "react-scroll";
+import { cv_url } from "../data/data";  // first change cv url in data/data.jsx then input here
+
+const socialmedias = [
+  {
+    icon: "/public/socialmedia_icon/github.svg",  // first change your image in public folder then input here
+    address: "https://github.com/Sajomkhan",  // add your link
+  },
+  {
+    icon: "/public/socialmedia_icon/linkedin.svg",
+    address: "https://www.linkedin.com/in/saiful-ajom-khan",
+  },
+  {
+    icon: "/public/socialmedia_icon/twitter.svg",
+    address: "https://twitter.com/SabuzKh10364527",
+  },
+  {
+    icon: "/public/socialmedia_icon/cv.svg",
+    address: cv_url,  // first change cv url in data/data.jsx then input here
+  },
+  {
+    icon: "/public/socialmedia_icon/mail.svg",
+    address: "Contact"
+  },
+];
+
 
 const SocialMedia = () => {
   return (

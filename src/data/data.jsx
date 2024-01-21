@@ -1,8 +1,4 @@
-import project_1 from "../assets/project_images/project_1.png"
-import project_2 from "../assets/project_images/project_2.png"
-import project_3 from "../assets/project_images/project_3.png"
-
-
+// add here your google drive CV link
 export const cv_url = "https://drive.google.com/file/d/1RMLRdAJtKuMcz-GPzk99014e0oqdF1_H/view?usp=drive_link"
 
 
@@ -31,6 +27,7 @@ export const about = {
 
 // ------------------Project-------------------------------------------------//
 export const projects = [
+  // Change data as per your requirment
 
   {
     projectId: "30",
@@ -38,9 +35,9 @@ export const projects = [
     tech: "MERN Technology",
     key_techs: ["React.js", "Tailwindcss", "Redux", "Material UI"],
     desc: "The project is fully user-friendly and responsive for both desktop and mobile devices. It includes shopping cart functionality with real-time updates using Redux. The design includes fully functional product filtering by categories, a catalog with detailed descriptions, and images.",
-    github: "https://github.com/Sajomkhan/food-shop-app-vite-v1.1-2302020",
-    live: "https://food-shop-app.netlify.app/",
-    image: {project_1}
+    github: "https://github.com/Sajomkhan",  // add your github source link
+    live: "https://food-shop-app",   // add your live url link
+    image: "/public/project_images/project_1.png"   // first change your image in public folder then input here
   },
 
   {
@@ -49,9 +46,9 @@ export const projects = [
     tech: "MERN Technology",
     key_techs: ["React.js", "Tailwindcss", "Redux", "Material UI"],
     desc: "The project is fully user-friendly and responsive for both desktop and mobile devices. It includes shopping cart functionality with real-time updates using Redux. The design includes fully functional product filtering by categories, a catalog with detailed descriptions, and images.",
-    github: "https://github.com/Sajomkhan/cloth-store-app-vite-v1.1-deploy-250323",
-    live: "https://cloth-store-app.netlify.app/",
-    image: {project_2},
+    github: "https://github.com/Sajomkhan",
+    live: "https://cloth-store-app",
+    image: "/public/project_images/project_1.png"
   },
 
   {
@@ -60,14 +57,15 @@ export const projects = [
     tech: "MERN Technology",
     key_techs: ["React.js", "CSS", "React-icons"],
     desc: "In this project, my sole focus was on enhancing the design for a better look, using plain CSS. It's not responsive, as I aimed to maximize the potential of CSS for the best design outcomes.",
-    github: "https://github.com/Sajomkhan/social-media-app-react",
-    live: "https://social-media-app1-react.netlify.app/",
-    image: {project_3},
+    github: "https://github.com/Sajomkhan",
+    live: "https://social-media-app",
+    image: "/public/project_images/project_1.png"
   },
 ];
 
 // ------------------Experiences--------------------//
 export const experiences = [
+  // Change data as per your requirment
   {
     position: "Aspiring Professional with Notable Project Experience",
     company: "Personal Project Endeavors",

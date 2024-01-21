@@ -23,16 +23,13 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-col gap-4 mx-2 my-4">
                   <p className="text-lg font-bold">{title}</p>
-                  {/* <p className="text-base font-semibold primary_text">{tech}</p> */}
                   <div>
                     <p className="font-semibold primary_text">Key Technologies and Tools:</p>
                     <p className=" text-sm">{key_techs?.join(", ")}</p>
                   </div>
                   <p className=" text-sm">{desc}</p>
 
-                  {/*Live & Github Button div */}
                   <div className="mt-3 flex items-center gap-6">
-                    {/* <p className="font-thin">Project link :</p> */}
                     <a href={github} target="blank" className="btnn_sm primary_bg">
                       GitHub
                     </a>

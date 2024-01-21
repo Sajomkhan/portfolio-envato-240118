@@ -13,7 +13,7 @@ const About = () => {
           <img
             alt="profile"
             className="w-full h-60 md:h-80 rounded-2xl object-cover lg:grayscale hover:grayscale-0 transition-all bg-violet-100"
-            src="about_image.png"  // add you about_image from puplic folder
+            src="/public/about_image.png"  // first change your image in public folder then input here
           />
         </div>
 

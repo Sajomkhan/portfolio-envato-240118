@@ -1,4 +1,54 @@
-import { skills } from "../data/iconData";
+ const skills = [
+  {
+    title: "React",
+    image: "/public/skill_icons/react.svg",  // first change your image in public folder then input here
+  },
+  {
+    title: "Nextjs",
+    image: "/public/skill_icons/nextjs.svg",
+  },
+  {
+    title: "Javascript",
+    image: "/public/skill_icons/javascript.svg",
+  },
+  {
+    title: "Typescript",
+    image: "/public/skill_icons/typescript.svg",
+  },
+  {
+    title: "Redux",
+    image: "/public/skill_icons/redux.svg",
+  },
+  {
+    title: "Nodejs",
+    image: "/public/skill_icons/nodejs.svg",
+  },
+  {
+    title: "Mongodb",
+    image: "/public/skill_icons/mongodb.svg",
+  },
+  {
+    title: "Tailwindcss",
+    image: "/public/skill_icons/tailwindcss.svg",
+  },
+  {
+    title: "Bootstrap",
+    image: "/public/skill_icons/bootstrap.svg", 
+  },
+  {
+    title: "HTML",
+    image: "/public/skill_icons/html.svg",
+  },
+  {
+    title: "CSS",
+    image: "/public/skill_icons/css.svg",
+  },
+  {
+    title: "GitHub",
+    image: "/public/skill_icons/github.svg",
+  },
+];
+
 
 const Skills = () => {
   return (
@@ -18,7 +68,7 @@ const Skills = () => {
               <img
                 className="w-18 h-18 p-2 object-cover rounded-md bg-gray-100 shadow-lg"
                 src={skill.image}
-                alt="Icon Image"
+                alt="Icon image"
                 width={300}
                 height={300}
               />

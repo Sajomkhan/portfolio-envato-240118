@@ -1,65 +1,52 @@
-// Skill Icons
-import react from "../assets/skill_icons/react.svg";
-import nextjs from "../assets/skill_icons/nextjs.svg";
-import javascript from "../assets/skill_icons/javascript.svg";
-import typescript from "../assets/skill_icons/typescript.svg";
-import redux from "../assets/skill_icons/redux.svg";
-import nodejs from "../assets/skill_icons/nodejs.svg";
-import mongodb from "../assets/skill_icons/mongodb.svg";
-import tailwindcss from "../assets/skill_icons/tailwindcss.svg";
-import bootstrap from "../assets/skill_icons/bootstrap.svg";
-import html from "../assets/skill_icons/html.svg";
-import css from "../assets/skill_icons/css.svg";
-import github from "../assets/skill_icons/github.svg";
 
 export const skillIcons = [
   {
     position: "top-2 left-10 w-10 ",
-    image: react,
+    image: "/public/skill_icons/react.svg",  // first change your image in public folder then input here
   },
   {
     position: "top-14 right-0 w-8 ",
-    image: javascript,
+    image: "/public/skill_icons/javascript.svg",
   },
   {
     position: "top-60 left-0 w-7 ",
-    image: nextjs,
+    image: "/public/skill_icons/nextjs.svg",
   },
   {
     position: "top-8 right-32 w-5 ",
-    image: typescript,
+    image: "/public/skill_icons/typescript.svg",
   },
   {
     position: "top-50 left-2 w-5 ",
-    image: redux,
+    image: "/public/skill_icons/redux.svg",
   },
   {
     position: "-bottom-2 right-24 w-8 ",
-    image: nodejs,
+    image: "/public/skill_icons/nodejs.svg",
   },
   {
     position: "top-10 left-12 w-10 ",
-    image: mongodb,
+    image: "/public/skill_icons/mongodb.svg",
   },
   {
     position: "bottom-14 left-20 w-8 ",
-    image: tailwindcss,
+    image: "/public/skill_icons/tailwindcss.svg",
   },
   {
     position: "bottom-2 right-5 w-7 ",
-    image: bootstrap,
+    image: "/public/skill_icons/bootstrap.svg", 
   },
   {
     position: "top-64 -right-1 w-5  ",
-    image: html,
+    image: "/public/skill_icons/html.svg",
   },
   {
     position: "top-60 right-2 w-5 ",
-    image: css,
+    image: "/public/skill_icons/css.svg",
   },
   {
     position: "bottom-8 right-24 w-10 ",
-    image: github,
+    image: "/public/skill_icons/github.svg",
   },
 ];
 
@@ -69,7 +56,7 @@ const HeroImage = () => {
         {/* --------------Hero Image---------------- */}
         <img
           className="w-60 h-60 lg:w-72 lg:h-72 rounded-full group-hover:scale-95 ease-in duration-500"
-          src="hero_image.png"  // add you hero_image from puplic folder
+          src="/public/hero_image.png"   // first change your image in public folder then input here
           alt="Image"
         />
 
