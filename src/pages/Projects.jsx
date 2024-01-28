@@ -9,7 +9,6 @@ const Projects = () => {
       <div className="flex flex-wrap justify-center gap-16 lg:px-10">
         {sortedArray.map((project) => {
           const { _id, title, key_techs, github, live, desc, image } = project;
-          console.log(project);
 
           return (
             <div key={_id}>
@@ -24,16 +23,26 @@ const Projects = () => {
                 <div className="flex flex-col gap-4 mx-2 my-4">
                   <p className="text-lg font-bold">{title}</p>
                   <div>
-                    <p className="font-semibold primary_text">Key Technologies and Tools:</p>
+                    <p className="font-semibold primary_text">
+                      Key Technologies and Tools:
+                    </p>
                     <p className=" text-sm">{key_techs?.join(", ")}</p>
                   </div>
                   <p className=" text-sm">{desc}</p>
 
                   <div className="mt-3 flex items-center gap-6">
-                    <a href={github} target="blank" className="btnn_sm primary_bg">
+                    <a
+                      href={github}
+                      target="blank"
+                      className="btnn_sm primary_bg"
+                    >
                       GitHub
                     </a>
-                    <a href={live} target="blank" className="btnn_sm danger_bg px-5">
+                    <a
+                      href={live}
+                      target="blank"
+                      className="btnn_sm danger_bg px-5"
+                    >
                       Live
                     </a>
                   </div>

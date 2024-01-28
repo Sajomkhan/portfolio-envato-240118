@@ -1,9 +1,90 @@
-// add here your google drive CV link
-export const cv_url = "https://drive.google.com/file/d/1RMLRdAJtKuMcz-GPzk99014e0oqdF1_H/view?usp=drive_link"
+
+const git_url = "Set your github url here" // SET YOUR GITHUB URL
+const linkedin_url = "Set your linkedin url here" // SET YOUR LINKEDIN URL
+const twiter_url = "Set your twiter url here" // SET YOUR TWITER URL
+const cv_url = "Set your cv url here" // SET YOUR CV URL
+
+export const socialmedias = [
+  {
+    // ALL THE ICON LINKS ARE TAKEN FROM PUBLIC DERECTORY
+    icon: "/socialmedia_icon/github.svg", 
+    address: git_url
+  },
+  {
+    icon: "/socialmedia_icon/linkedin.svg",
+    address: linkedin_url
+  },
+  {
+    icon: "/socialmedia_icon/twitter.svg",
+    address: twiter_url
+  },
+  {
+    icon: "/socialmedia_icon/cv.svg",
+    address: cv_url, 
+  },
+  {
+    icon: "/socialmedia_icon/mail.svg",
+    address: "Contact"
+  },
+];
 
 
-// ------------------Hero--------------------//
-// Change data as per your requirment
+// ------------------Data for Skills Section--------------------//
+export const skills = [
+  // ALL THE IMAGE LINKS ARE TAKEN FROM PUBLIC DERECTORY
+  {
+    title: "React",
+    image: "/skill_icons/react.svg",
+  },
+  {
+    title: "Nextjs",
+    image: "/skill_icons/nextjs.svg",
+  },
+  {
+    title: "Javascript",
+    image: "/skill_icons/javascript.svg",
+  },
+  {
+    title: "Typescript",
+    image: "/skill_icons/typescript.svg",
+  },
+  {
+    title: "Redux",
+    image: "/skill_icons/redux.svg",
+  },
+  {
+    title: "Nodejs",
+    image: "/skill_icons/nodejs.svg",
+  },
+  {
+    title: "Mongodb",
+    image: "/skill_icons/mongodb.svg",
+  },
+  {
+    title: "Tailwindcss",
+    image: "/skill_icons/tailwindcss.svg",
+  },
+  {
+    title: "Bootstrap",
+    image: "/skill_icons/bootstrap.svg", 
+  },
+  {
+    title: "HTML",
+    image: "/skill_icons/html.svg",
+  },
+  {
+    title: "CSS",
+    image: "/skill_icons/css.svg",
+  },
+  {
+    title: "GitHub",
+    image: "/skill_icons/github.svg",
+  },
+];
+
+
+// ------------------Data for Hero Section --------------------//
+// CHANGE DATA AS PER YOU REQUIREMENT
 export const hero = {
   headline: "I'm Saiful Ajom Khan",
   skills_initiative: "I am into",
@@ -12,8 +93,8 @@ export const hero = {
 };
 
 
-// ------------------About--------------------//
-// Change data as per your requirment
+// ------------------Data for About Section --------------------//
+// CHANGE DATA AS PER YOU REQUIREMENT
 export const about = {
   name: "Saiful Ajom Khan",
   education: "B.Sc. Engineer",
@@ -25,19 +106,18 @@ export const about = {
 };
 
 
-// ------------------Project-------------------------------------------------//
+// -------------------- Data for Project Section -------------------------------//
 export const projects = [
-  // Change data as per your requirment
-
+  // CHANGE DATA AS PER YOU REQUIREMENT
   {
     projectId: "30",
     title: " E-Commerce Food Shop App (UI/UX Part)",
     tech: "MERN Technology",
     key_techs: ["React.js", "Tailwindcss", "Redux", "Material UI"],
     desc: "The project is fully user-friendly and responsive for both desktop and mobile devices. It includes shopping cart functionality with real-time updates using Redux. The design includes fully functional product filtering by categories, a catalog with detailed descriptions, and images.",
-    github: "https://github.com/Sajomkhan",  // add your github source link
-    live: "https://food-shop-app",   // add your live url link
-    image: "/public/project_images/project_1.png"   // first change your image in public folder then input here
+    github: "",  // SET YOUR PROJECT-1 GITHUB URL LINK IN DOUBLE QUOTATION
+    live: "",   // SET YOUR PROJECT-1 LIVE URL LINK IN DOUBLE QUOTATION
+    image: "/project_images/project_1.jpg"  // PROJECT-1 IMAGE LINK IS TAKEN FROM PUBLIC DERECTORY
   },
 
   {
@@ -46,9 +126,9 @@ export const projects = [
     tech: "MERN Technology",
     key_techs: ["React.js", "Tailwindcss", "Redux", "Material UI"],
     desc: "The project is fully user-friendly and responsive for both desktop and mobile devices. It includes shopping cart functionality with real-time updates using Redux. The design includes fully functional product filtering by categories, a catalog with detailed descriptions, and images.",
-    github: "https://github.com/Sajomkhan",
-    live: "https://cloth-store-app",
-    image: "/public/project_images/project_1.png"
+    github: "",  // SET YOUR PROJECT-2 GITHUB URL LINK IN DOUBLE QUOTATION
+    live: "",   // SET YOUR PROJECT-2 LIVE URL LINK IN DOUBLE QUOTATION
+    image: "/project_images/project_2.jpg"  // PROJECT-2 IMAGE LINK IS TAKEN FROM PUBLIC DERECTORY
   },
 
   {
@@ -57,15 +137,15 @@ export const projects = [
     tech: "MERN Technology",
     key_techs: ["React.js", "CSS", "React-icons"],
     desc: "In this project, my sole focus was on enhancing the design for a better look, using plain CSS. It's not responsive, as I aimed to maximize the potential of CSS for the best design outcomes.",
-    github: "https://github.com/Sajomkhan",
-    live: "https://social-media-app",
-    image: "/public/project_images/project_1.png"
+    github: "",  // SET YOUR PROJECT-2 GITHUB URL LINK IN DOUBLE QUOTATION
+    live: "",   // SET YOUR PROJECT-2 LIVE URL LINK IN DOUBLE QUOTATION
+    image: "/project_images/project_2.jpg"  // PROJECT-2 IMAGE LINK IS TAKEN FROM PUBLIC DERECTORY
   },
 ];
 
-// ------------------Experiences--------------------//
+// ------------------ Data for Experiences Section --------------------//
 export const experiences = [
-  // Change data as per your requirment
+  // CHANGE DATA AS PER YOU REQUIREMENT
   {
     position: "Aspiring Professional with Notable Project Experience",
     company: "Personal Project Endeavors",

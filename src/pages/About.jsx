@@ -13,7 +13,7 @@ const About = () => {
           <img
             alt="profile"
             className="w-full h-60 md:h-80 rounded-2xl object-cover lg:grayscale hover:grayscale-0 transition-all bg-violet-100"
-            src="/public/about_image.png"  // first change your image in public folder then input here
+            src="/about_image.png"  // IMAGE IS TAKEN FROM PUBLIC DERECTORY
           />
         </div>
 
@@ -30,7 +30,6 @@ const About = () => {
             <p>{about.address}</p>
           </div>
           <p className="text-sm text-justify md:text-base my-2 whitespace-pre-wrap">{about.desc}</p>
-          {/* <p className="text-sm text-justify md:text-base my-2">{about.desc2}</p> */}
 
           {/* -------------------Button---------------------- */}
           <div className="flex items-center gap-4 md:mt-4">

@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleManubarToggle = () => setManubar(!manubar);
 
   return (
-    <navbar
+    <section
       className={`fixed top-0 left-0 w-full z-50 p-2 theme ${mode} shadow-md`}
     >
       <div className="container px-4 flex justify-between items-center">
@@ -97,7 +97,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </navbar>
+    </section>
   );
 };
 

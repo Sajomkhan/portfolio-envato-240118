@@ -2,7 +2,7 @@ import { hero } from "../data/data";
 import { Link as ScrollLink } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import { IoIosArrowForward } from "react-icons/io";
-import HeroImage from "../components/HeroImage";
+import HeroImageSection from "../components/HeroImageSection";
 import SocialMedia from "../components/SocialMedia";
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
       className="flex flex-col lg:flex-row-reverse gap-x-20 gap-y-10 justify-center items-center lg:px-30"
     >
       {/* --------------Hero Image------------- */}
-      <HeroImage />
+      <HeroImageSection />
 
       {/* --------------Text Div------------- */}
       <div className=" lg:max-w-lg flex-1 flex flex-col items-center gap-3 lg:items-start lg:mt-24 px-2">

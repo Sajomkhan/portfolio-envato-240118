@@ -52,14 +52,15 @@ const Contact = () => {
 
   return (
     <section id="Contact" className="w-full section_color lg:px-16">
-      <h1 className="text-3xl font-bold text-center lg:mb-12">Contact Me</h1>
-      <div className="flex flex-col items-center lg:flex-row gap-4">
+      <h1 className="text-3xl font-bold text-center mb-12">Contact Me</h1>
+      <div className="flex flex-col justify-center items-center lg:flex-row gap-10">
         {/* -------------Image Div----------------- */}
         <div className="h-full object-cover">
           <img
-            className=""
-            src="contact_image.png" // add you contact_image from puplic folder
+            className="rounded-lg w-[350px] md:w-[450px]"
+            src="contact_image.jpg" // SET CONTACT IMAGE FROM PUBLIC FOLDER
             alt="Image"
+            
           />
         </div>
 
