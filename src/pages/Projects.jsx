@@ -8,10 +8,10 @@ const Projects = () => {
 
       <div className="flex flex-wrap justify-center gap-16 lg:px-10">
         {sortedArray.map((project) => {
-          const { _id, title, key_techs, github, live, desc, image } = project;
+          const { projectId, title, key_techs, github, live, desc, image } = project;
 
           return (
-            <div key={_id}>
+            <div key={projectId}>
               <div className="flex flex-col max-w-[330px] section_color shadow-lg py-2 px-1 rounded-xl hover:scale-105 duration-500">
                 <div className="w-full h-[200px]">
                   <img

@@ -9,13 +9,13 @@ const ExperienceCard = () => {
         <div className="primary_bg2 py-2 px-5 rounded-md hover:scale-105 duration-300">
           Experiences
         </div>
-        {experiences.map((exp) => (
-          <>
+        {experiences.map((exp, index) => (
+          <div key={index}>
             <div className="w-px h-[130px] bg-gray-500/50 "></div>
             <div className="rounded-full p-4 primary_bg2 hover:scale-105 duration-500">
               <MdWork className=" text-lg" />
             </div>
-          </>
+          </div>
         ))}
       </div>
 
