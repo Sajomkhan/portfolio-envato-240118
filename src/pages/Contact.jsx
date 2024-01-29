@@ -57,7 +57,7 @@ const Contact = () => {
         {/* -------------Image Div----------------- */}
         <div className="h-full object-cover">
           <img
-            className="rounded-lg w-[350px] md:w-[450px]"
+            className="rounded-lg w-[340px] md:w-[450px]"
             src="contact_image.jpg" // SET CONTACT IMAGE FROM PUBLIC FOLDER
             alt="Image"
             

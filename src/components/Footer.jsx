@@ -10,7 +10,7 @@ const Footer = () => {
             <div key={index}>
               <a href={address} target="blank">
                 <img
-                  className="h-6 w-6 bg-gray-200 rounded-md shadow-md hover:bg-teal-300 hover:scale-110 duration-300"
+                  className="h-5 w-5 bg-gray-200 rounded-md shadow-md hover:bg-teal-300 hover:scale-110 duration-300"
                   src={icon}
                   alt="Icon Image"
                 />
@@ -19,7 +19,7 @@ const Footer = () => {
           );
         })}
       </div>
-      <p>© 2024 copyright all right reserved by -----</p>
+      <p className="text-sm text-gray-400">© 2024 copyright all right reserved by Ajom</p>
     </div>
   );
 };
