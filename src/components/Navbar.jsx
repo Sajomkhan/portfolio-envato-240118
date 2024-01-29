@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <div className="container px-5 flex justify-between items-center">
         <div className="flex gap-8 items-center">
-          {/* ---------Logo------------ */}
+          {/* ------------------ Logo ----------------- */}
           <a href="/" className="text-2xl font-semibold primary_text">
             Portfolio
           </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
         </div>
 
 
-        {/* -------------------  Mobile Manubar  --------------------- */}
+        {/* ------------------- Mobile Manubar --------------------- */}
         {manubar && (
           <div onClick={handleManubarToggle} className="absolute top-0 left-0 w-full h-screen">
             <nav
