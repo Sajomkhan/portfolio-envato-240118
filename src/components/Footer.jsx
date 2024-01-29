@@ -11,7 +11,7 @@ const Footer = () => {
             <div key={index}>
               <a href={address} target="blank">
                 <img
-                  className="h-5 w-5 bg-gray-200 rounded-sm shadow-md hover:bg-teal-300 hover:scale-110 duration-300"
+                  className="h-4 w-4 bg-gray-200 rounded-sm shadow-md hover:bg-teal-300 hover:scale-110 duration-300"
                   src={icon}
                   alt="Icon Image"
                 />
