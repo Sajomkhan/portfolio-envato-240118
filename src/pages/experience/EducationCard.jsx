@@ -1,4 +1,5 @@
 import { MdSchool } from "react-icons/md";
+import { education } from "../../data/data";
 
 const EducationCard = () => {
   return (
@@ -14,13 +15,13 @@ const EducationCard = () => {
       {/* -------------Education Card---------------- */}
       <div className="max-w-[575px] text-sm section_color shadow-lg p-4 mb-12 rounded-lg text-center hover:scale-105 duration-500">
         <p className="text-lg font-bold mb-1 primary_text">
-          B.Sc. Engineer | 2006-2010
+          {education.lastEducation} | {education.duration}
         </p>
         <p className="mb-1 font-light">
-          The Institution of Engineers Bangladesh (IEB)
+          {education.institution}
         </p>
         <p className="">
-          <b>Subject:</b> Electrical & Electronics (EEE)
+          <b>Subject:</b> {education.subject}
         </p>
       </div>
     </div>

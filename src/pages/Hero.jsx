@@ -62,7 +62,7 @@ const Hero = () => {
           duration={500}
           isDynamic={true}
         >
-          Show Works
+          View Works
           <IoIosArrowForward />
         </ScrollLink>
       </div>
