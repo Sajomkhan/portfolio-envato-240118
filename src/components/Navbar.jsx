@@ -18,7 +18,7 @@ const Navbar = () => {
     <div
       className={`fixed top-0 left-0 w-full z-50 p-2 theme ${mode} shadow-md`}
     >
-      <div className="container px-4 flex justify-between items-center">
+      <div className="container px-5 flex justify-between items-center">
         <div className="flex gap-8 items-center">
           {/* ---------Logo------------ */}
           <a href="/" className="text-2xl font-semibold primary_text">
