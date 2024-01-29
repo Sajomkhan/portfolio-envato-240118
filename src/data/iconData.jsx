@@ -1,4 +1,4 @@
-import { Link as ScrollLink } from "react-scroll";
+
 // Skill Icons
 import react from "../assets/icons/react.svg";
 import nextjs from "../assets/icons/nextjs.svg";
