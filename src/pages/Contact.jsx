@@ -26,10 +26,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_xfa4gp7", // Write here your's key other wise it will not work
-        "template_5pasf97", // Write here your's key other wise it will not work
+        "service_xfa4gp7", // WRITE YOUR EMAILJS KEY
+        "template_5pasf97", // WRITE YOUR EMAILJS KEY
         form.current,
-        "IyCRsMFAFAFHIy" // Write here your's key other wise it will not work
+        "IyCRsMFAFAFHIy" // WRITE YOUR EMAILJS KEY
       )
       .then(
         (result) => {
